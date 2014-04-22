@@ -39,7 +39,7 @@ class plgSystemSuperfossil extends JPlugin
 	        if(JFactory::getApplication()->get('jquery') !== true) {
 	            $doc->addScript(JURI::root() . '/plugins/system/superfossil/assets/js/jquery.js');
 	    	    $doc->addScript( JURI::root(true) .'/plugins/system/superfossil/assets/js/noconflict.js');
-	            Factory::getApplication()->set('jquery', true);
+	            JFactory::getApplication()->set('jquery', true);
 	        }
 	    }
 	}
